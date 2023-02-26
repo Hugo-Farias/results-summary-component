@@ -1,5 +1,6 @@
 .main {
   gap: 2rem;
+  align-items: center;
   font-size: 1.3rem;
   text-align: center;
   color: white;
@@ -21,7 +22,7 @@
   width: 14rem;
   height: 14rem;
   clip-path: circle();
-  background: linear-gradient(to bottom, #4a24cd, #4235ed);
+  background: linear-gradient(to bottom, #4a24cd, #4b37f0);
 }
 
 .userScore {
@@ -34,11 +35,9 @@
   opacity: 0.5;
 }
 
-.result {
-  gap: 2rem;
-}
-
 .result > h1 {
+  margin: 1rem;
+  font-weight: 500;
   opacity: 0.9;
 }
 

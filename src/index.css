@@ -15,8 +15,11 @@ html {
   font-size: 10px;
 }
 
+.flex {
+  display: flex;
+}
+
 .flex-column {
   display: flex;
   flex-direction: column;
-  align-items: center;
 }

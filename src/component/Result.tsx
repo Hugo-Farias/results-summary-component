@@ -10,7 +10,7 @@ const Result = function () {
         <span className={cls.totalScore}>of 100</span>
       </div>
 
-      <div className={`${cls.result} flex-column`}>
+      <div className={cls.result}>
         <h1>Great</h1>
         <p>
           You scored higher than 65% of the people who have taken these tests.

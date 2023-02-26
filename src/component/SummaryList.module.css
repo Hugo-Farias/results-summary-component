@@ -1,0 +1,29 @@
+.list {
+  display: flex;
+  align-items: center;
+  margin: 2rem 0;
+  padding: 0 1.5rem;
+  height: 5rem;
+  border-radius: 1rem;
+  background-color: rgba(255, 0, 0, 0.05);
+}
+
+.list > img {
+  margin-right: 1rem;
+}
+
+.list > h1 {
+  font-size: 1.6rem;
+  opacity: 0.8;
+}
+
+.list > span {
+  font-size: 1.6rem;
+  font-weight: 900;
+  opacity: 0.3;
+}
+
+.list > .rating {
+  opacity: 0.7;
+  margin: 0 0.8rem 0 auto;
+}
