@@ -1,7 +1,13 @@
 import Attribution from "./component/Attribution";
+import Card from "./component/Card";
 
 function App() {
-  return <Attribution />;
+  return (
+    <>
+      <Card />
+      {/*<Attribution />*/}
+    </>
+  );
 }
 
 export default App;
