@@ -1,7 +1,15 @@
+@font-face {
+  font-family: "HankenGrotesk";
+  src: url("assets/fonts/HankenGrotesk-VariableFont_wght.ttf")
+    format("truetype");
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
 
-  background-color: rgb(0, 0, 0, 80%);
+html {
+  font-family: "HankenGrotesk", sans-serif;
 }

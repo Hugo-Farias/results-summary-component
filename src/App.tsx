@@ -1,5 +1,7 @@
+import Attribution from "./component/Attribution";
+
 function App() {
-  return null;
+  return <Attribution />;
 }
 
 export default App;
