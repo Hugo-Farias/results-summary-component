@@ -22,10 +22,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 2.5rem;
   width: 16rem;
   height: 16rem;
   clip-path: circle();
-  background: linear-gradient(to bottom, #4d22c9, #4735ef);
+  background: linear-gradient(to bottom, #4a24cd, #4235ed);
 }
 
 .userScore {
@@ -34,4 +35,6 @@
 }
 
 .totalScore {
+  font-size: 1.5rem;
+  opacity: 0.3;
 }
