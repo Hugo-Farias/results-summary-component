@@ -5,11 +5,9 @@
   text-align: center;
   color: white;
   padding: 2rem 5rem;
-  margin: 0 auto;
   border-radius: 0 0 3rem 3rem;
   background: linear-gradient(to bottom, #6643fd, #312ce8);
   height: 36rem;
-  max-width: 42.5rem;
 }
 
 .main > h2 {

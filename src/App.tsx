@@ -5,7 +5,7 @@ function App() {
   return (
     <>
       <Card />
-      {/*<Attribution />*/}
+      <Attribution />
     </>
   );
 }

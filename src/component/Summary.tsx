@@ -1,10 +1,10 @@
 import React from "react";
-import json from "../data/data.json";
 import cls from "./Summary.module.css";
 import SummaryList from "./SummaryList";
+import { jsonProps } from "../helpers/TypeDefinitions";
 
-const Summary = function () {
-  const summaryContent = json.map((v) => {
+const Summary = function (props: jsonProps) {
+  const summaryContent = props.data.map((v) => {
     return (
       <SummaryList
         key={v.category}

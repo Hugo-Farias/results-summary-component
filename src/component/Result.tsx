@@ -1,12 +1,16 @@
 import cls from "./Result.module.css";
+import { jsonProps } from "../helpers/TypeDefinitions";
 
-const Result = function () {
+const Result = function (props: jsonProps) {
+  const avgScore =
+    props.data.reduce((prev, curr) => prev + curr.score, 0) / props.data.length;
+
   return (
     <div className={`${cls.main} flex-column`}>
       <h2>Your Result</h2>
 
       <div className={`${cls.score} flex-column`}>
-        <div className={cls.userScore}>76</div>
+        <div className={cls.userScore}>{avgScore.toFixed()}</div>
         <span className={cls.totalScore}>of 100</span>
       </div>
 
