@@ -4,9 +4,19 @@
 
 .title {
   font-size: 1.8rem;
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
 }
 
 .main > ul {
   list-style: none;
+}
+
+@media screen and (min-width: 621px) {
+  .main {
+    flex-grow: 1;
+  }
+
+  .title {
+    font-size: 2.4rem;
+  }
 }

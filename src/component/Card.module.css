@@ -1,18 +1,21 @@
 .card {
   margin: 0 auto;
+  height: auto;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 620px) {
   .card {
-    max-width: 42.5rem;
+    /*max-width: 42.5rem;*/
   }
 }
 
-@media screen and (min-width: 501px) {
+@media screen and (min-width: 621px) {
   .card {
     display: flex;
-    gap: 1rem;
-    width: 80rem;
+    align-items: center;
+    gap: 1.4rem;
+    margin: 3rem auto;
+    max-width: 73.5rem;
     border-radius: 3rem;
     box-shadow: 1rem 1rem 30rem 2rem rgba(0, 0, 0, 0.3);
   }
