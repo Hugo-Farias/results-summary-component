@@ -2,17 +2,18 @@
   margin: 0 auto;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 500px) {
   .card {
     max-width: 42.5rem;
   }
 }
 
-@media screen and (min-width: 426px) {
+@media screen and (min-width: 501px) {
   .card {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 3rem;
+    gap: 1rem;
+    width: 80rem;
+    border-radius: 3rem;
+    box-shadow: 1rem 1rem 30rem 2rem rgba(0, 0, 0, 0.3);
   }
 }

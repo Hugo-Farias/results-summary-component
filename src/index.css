@@ -11,6 +11,8 @@
 }
 
 html {
+  position: relative;
+  padding-bottom: 5rem;
   font-family: "HankenGrotesk", sans-serif;
   font-size: 10px;
 }

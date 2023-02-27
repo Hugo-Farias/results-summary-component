@@ -1,9 +1,12 @@
-.main {
-  margin-top: 3rem;
+.attr {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
   font-size: 1.1rem;
   text-align: center;
 }
 
-.main a {
+.attr a {
   color: hsl(228, 45%, 44%);
 }

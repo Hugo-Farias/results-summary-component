@@ -3,7 +3,7 @@ import { GITHUB_URL } from "../helpers/variables";
 
 const Attribution = function () {
   return (
-    <div className={cls.main}>
+    <div className={cls.attr}>
       Challenge by{" "}
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
         Frontend Mentor

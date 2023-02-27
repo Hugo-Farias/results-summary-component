@@ -43,3 +43,11 @@
   opacity: 0.7;
   font-size: 1.5rem;
 }
+
+@media screen and (min-width: 501px) {
+  .main {
+    max-width: 30rem;
+    height: 100%;
+    border-radius: 3rem;
+  }
+}
