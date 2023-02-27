@@ -1,4 +1,4 @@
-interface jsonShape {
+export interface jsonShape {
   category: string;
   score: number;
   icon: string;

@@ -1,5 +1,5 @@
 import cls from "./Result.module.css";
-import { jsonProps } from "../helpers/TypeDefinitions";
+import { jsonProps } from "../helpers/typeDefinitions";
 
 const Result = function (props: jsonProps) {
   const avgScore =

@@ -1,5 +1,6 @@
 import React from "react";
 import cls from "./SummaryList.module.css";
+import { jsonShape } from "../helpers/typeDefinitions";
 
 interface colors {
   [key: string]: string;
@@ -17,14 +18,7 @@ const colors: colors = {
   gray: "128,128,128",
 };
 
-export interface props {
-  category: string;
-  score: number;
-  icon: string;
-  color: string;
-}
-
-const SummaryList: React.FC<props> = function (props) {
+const SummaryList: React.FC<jsonShape> = function (props) {
   const color = colors[props.color];
 
   return (
